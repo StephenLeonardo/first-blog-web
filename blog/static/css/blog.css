@@ -18,3 +18,7 @@
   right: 2em;
   display: flex;
 }
+
+.comment-heading {
+  margin-top: 1.5em;
+}
