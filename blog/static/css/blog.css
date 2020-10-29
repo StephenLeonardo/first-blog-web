@@ -16,4 +16,5 @@
 .navbar-right-absolute {
   position: absolute;
   right: 2em;
+  display: flex;
 }

@@ -35,7 +35,7 @@
           <a class="nav-item nav-link" href="{% url 'post_new' %}">New Post</a>
           <a class="nav-item nav-link" href="{% url 'post_draft_list' %}">Drafts</a>
           <a class="nav-item nav-link" href="{% url 'logout' %}">Log Out</a>
-          <a>Welcome: {{ user.username }}</a>
+          <a class="nav-link">Welcome: {{ user.username }}</a>
         
         {% else %}
           <a class="nav-item nav-link" href="{% url 'login' %}"><span class="glyphicon glyphicon-user"></span></a>
